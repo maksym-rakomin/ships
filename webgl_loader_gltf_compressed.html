@@ -64,7 +64,7 @@
 		const loader = new GLTFLoader().setPath( 'textures/' );
 		loader.setKTX2Loader( ktx2Loader );
 		loader.setMeshoptDecoder( MeshoptDecoder );
-		loader.load( '1.glb', function ( gltf ) {
+		loader.load( 'lp.glb', function ( gltf ) {
 
 			// Центрируем объект
 			const box = new THREE.Box3().setFromObject(gltf.scene);

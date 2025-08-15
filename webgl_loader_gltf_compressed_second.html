@@ -61,7 +61,7 @@
 				.setTranscoderPath( 'jsm/libs/basis/' )
 				.detectSupport( renderer );
 
-		const loader = new GLTFLoader().setPath( 'https://github.com/maksym-rakomin/ships/releases/download/release/' );
+		const loader = new GLTFLoader().setPath( 'textures/' );
 		loader.setKTX2Loader( ktx2Loader );
 		loader.setMeshoptDecoder( MeshoptDecoder );
 		loader.load( 'hp.glb', function ( gltf ) {
